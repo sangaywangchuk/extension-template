@@ -38,7 +38,7 @@
 
 @layer components {
   .btn {
-    @apply px-[32px] py-[10px] rounded-[8px];
+    @apply w-full px-[32px] py-[10px] rounded-[8px];
 
     &-primary {
       @apply bg-primary-700 hover:bg-primary-800 text-white;
@@ -58,10 +58,6 @@
   }
 
   .input {
-    @apply bg-lightGray h-[40px] rounded-[4px] px-[8px] py-[10px];
-  }
-
-  .input-label {
-    @apply font-poppins font-[600] text-[12px] text-textPrimary mb-[4px];
+    @apply bg-white border border-black/[0.20] h-[40px] rounded-[4px] px-[8px] py-[10px];
   }
 }
