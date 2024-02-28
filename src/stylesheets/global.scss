@@ -38,7 +38,7 @@
 
 @layer components {
   .btn {
-    @apply px-[32px] py-[10px] rounded-[8px];
+    @apply w-full px-[32px] py-[10px] rounded-[8px];
 
     &-primary {
       @apply bg-primary-700 hover:bg-primary-800 text-white;
@@ -55,5 +55,9 @@
     &-neutral--outlined {
       @apply bg-transparent text-black/[0.6] border border-neutral-50 px-[16px];
     }
+  }
+
+  .input {
+    @apply bg-white border border-black/[0.20] h-[40px] rounded-[4px] px-[8px] py-[10px];
   }
 }
