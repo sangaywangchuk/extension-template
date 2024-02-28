@@ -1,16 +1,7 @@
 import React from 'react'
-import '../stylesheets/global.scss'
+import '../../stylesheets/global.scss'
 import { Field, Form } from 'react-final-form'
-import tw from 'tailwind-styled-components'
 
-const Container = tw.div`
-    flex
-    items-center
-    justify-center
-    flex-col
-    w-full
-    bg-black
-`
 const SidePanelLoginPage = () => {
 	
 	const onSubmit = (value: { email: string; password: string }) => {
@@ -20,9 +11,6 @@ const SidePanelLoginPage = () => {
 
 	return (
 		<div className="p-4">
-			<Container>
-				<div>jsaldjflaskjflasdjflaksdf</div>
-			</Container>
 			<h5>&lt;blocks/&gt; Language Manager</h5>
 			<hr />
 			<div className="mt-4">

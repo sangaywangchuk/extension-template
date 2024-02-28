@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import SidePanelLoginPage from '../components/side-panel-login-page'
+import SidePanelLoginPage from '../../components/side-panel/side-panel-login'
 
 
 const root = document.createElement("div");

@@ -7,13 +7,13 @@ const tailwindcss = require('tailwindcss')
 
 module.exports = {
   entry: {
-    popup: path.resolve('src/popup/popup.tsx'),
-    options: path.resolve('src/options/options.tsx'),
+    popup: path.resolve('src/pages/popup/popup.tsx'),
+    options: path.resolve('src/pages/options/options.tsx'),
     background: path.resolve('src/background/background.ts'),
-    contentScript: path.resolve('src/content-script/content-script.tsx'),
+    contentScript: path.resolve('src/pages/content-script/content-script.tsx'),
     /*Adding Side Panel*/
-    sidePanelLogin: path.resolve('src/side-panel/side-panel-login.tsx'),
-    sidePanelContent: path.resolve('src/side-panel/side-panel-content.tsx')
+    sidePanelLogin: path.resolve('src/pages/side-panel/side-panel-login.tsx'),
+    sidePanelContent: path.resolve('src/pages/side-panel/side-panel-content.tsx')
   },
   module: {
     rules: [

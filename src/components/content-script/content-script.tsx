@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheets/global.scss'
+import '../../stylesheets/global.scss'
 
 const ContentPage = () => {
 	return <></>

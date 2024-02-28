@@ -1,6 +1,6 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import OptionsPage from '../components/options-page'
+import OptionsPage from '../../components/options/options'
 
 // Create a root div element
 const root = document.createElement('div')
