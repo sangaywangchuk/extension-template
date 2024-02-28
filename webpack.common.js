@@ -10,10 +10,10 @@ module.exports = {
     popup: path.resolve('src/popup/popup.tsx'),
     options: path.resolve('src/options/options.tsx'),
     background: path.resolve('src/background/background.ts'),
-    contentScript: path.resolve('src/contentScript/contentScript.tsx'),
+    contentScript: path.resolve('src/content-script/content-script.tsx'),
     /*Adding Side Panel*/
-    sidePanelLogin: path.resolve('src/sidePanel/sidePanelLogin.tsx'),
-    sidePanelContent: path.resolve('src/sidePanel/sidePanelContent.tsx')
+    sidePanelLogin: path.resolve('src/side-panel/side-panel-login.tsx'),
+    sidePanelContent: path.resolve('src/side-panel/side-panel-content.tsx')
   },
   module: {
     rules: [

@@ -1,7 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import ContentPage from '../components/contentScriptPage'
-import "./contentScript.scss";
+import ContentPage from '../components/content-script-page'
+import "./content-script.scss";
 
 
 const root = document.createElement('div')
